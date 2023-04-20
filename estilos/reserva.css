@@ -1,0 +1,55 @@
+.div_contenedor {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+    /* border-radius: 10px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_mesa {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.btn_mesa {
+    display: flex;
+    margin: 20px;
+    height: 100px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+p {
+    margin-bottom: 100%;
+}
